@@ -1,0 +1,49 @@
+head{
+	
+}
+body{
+	background: white;
+	font-family: verdana;
+	font-size: 32px;
+}
+address{
+	font-family: courier;
+}
+.gbr{
+	align-content: center;
+}
+p{
+	font-family: arial;
+	color: red;
+}
+a{
+	color: white;
+}
+img{
+	background: body.background;
+	border: body.background;
+}
+button{
+  
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.bluebutton{
+  background-color: #1ECBE1;
+  border: none;
+  color: white;
+}
+.redbutton{
+  background-color: #F14545;
+  border: none;
+  color: white;
+}
