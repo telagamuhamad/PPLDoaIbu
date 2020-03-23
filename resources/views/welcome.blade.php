@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Sistem Pemesanan Mister Geprekk</title>
+    <link rel="shortcut icon" href="{{ URL::asset('images/geprek.jpg') }}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Sistem Pemesanan Mister Geprek</title>
   <style type="text/css">
    .welcome {
     margin: auto;
@@ -32,7 +34,7 @@
   </head>
   <body>
       @include('layouts.main')
-        <img src="public/geprek.jpg"><br>
+        <img src="{{ URL::asset('images/geprek.jpg') }}"><br>
         <button type="button" class="btn btn-danger" onclick="location.href='{{ url('menu')}}'">Pesan Sekarang</button>             
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

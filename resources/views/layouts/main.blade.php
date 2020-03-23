@@ -12,7 +12,7 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: firebrick;
+  background-color: #CD3333;
   padding: 20px 10px;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .header a.logo {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
 }
 

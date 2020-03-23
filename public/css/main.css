@@ -2264,7 +2264,7 @@ footer {
 .breadcrumb {
   float: left;
   width: 100%;
-  background-color: transparent;
+  background-color: #CD3333;
   -webkit-border-radius: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -2272,8 +2272,8 @@ footer {
 }
 .breadcrumb > li {
   font-family: Poppins;
-  color: #9c9c9c;
-  font-size: 13px;
+  color: black;
+  font-size: 20px;
 }
 .breadcrumb > li.breadcrumb-item + li.breadcrumb-item:before {
   color: #9c9c9c;

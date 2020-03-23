@@ -22,3 +22,11 @@ Route::get('/menu', function () {
 Route::get('/loginadmin', function () {
     return view('loginadmin');
 });
+
+Route::get('/minuman', function () {
+    return view('minuman');
+});
+
+Route::get('/detail', function () {
+    return view('detail');
+});
