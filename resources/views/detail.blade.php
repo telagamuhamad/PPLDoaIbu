@@ -56,12 +56,12 @@
                                                         <input class="qty" type="text" value="1">
                                                     </div>
                                                     
-                                                    <a class="brd-rd3" href="#" title="" itemprop="url">Pesan</a>
+                                                    <a class="brd-rd3" href="#" title="" itemprop="url"  onclick="location.href='{{ url('menu')}}'">Pesan</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-12 col-lg-4">
+                                    <!-- <div class="col-md-4 col-sm-12 col-lg-4">
                                         <div class="order-wrapper">
                                             <div class="order-inner gradient-brd">
                                                 <h4 itemprop="headline">Your Order</h4>
@@ -107,7 +107,7 @@
                     </div>
                 </div><!-- Section Box -->
             </div>
-        </section>
+        </section> -->
 
 
 

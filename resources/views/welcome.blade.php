@@ -34,6 +34,7 @@
   </head>
   <body>
       @include('layouts.main')
+      @include('layouts.footer')
         <img src="{{ URL::asset('images/geprek.jpg') }}"><br>
         <button type="button" class="btn btn-danger" onclick="location.href='{{ url('menu')}}'">Pesan Sekarang</button>             
     <!-- Optional JavaScript -->

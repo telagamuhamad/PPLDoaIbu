@@ -40,6 +40,8 @@ body {
 .header a.active {
   background-color: grey;
   color: white;
+  padding-right: 10px;
+  display: inline block;
 }
 
 .header-right {
@@ -55,6 +57,7 @@ body {
   
   .header-right {
     float: none;
+    
   }
 }
 </style>
@@ -64,7 +67,8 @@ body {
 <div class="header">
   <a href="#default" class="logo">Sistem Pemesanan Mister Geprek</a>
   <div class="header-right">
-    <a class="active" onclick="location.href='{{ url('loginadmin')}}'">Admin</a>
+      <a class="active" onclick="location.href='{{ url('login')}}'">Admin</a>
+      <!-- <a class="active" onclick="location.href='{{ url('register')}}'">Register</a>   -->
   </div>
 </div>
 

@@ -45,7 +45,7 @@
                                             <div class="popular-dish-info">
                                                 <h4 itemprop="headline"><a href="food-detail.html" title="" itemprop="url">Milosaurus</a></h4>
                                             
-                                                <span class="price">Rp15.000,00</span>
+                                                <span class="price">Rp10.000,00</span>
                                                 <a class="brd-rd4 " href="food-detail.html" title="Order Now" itemprop="url">Pesan</a>
                                                 
                                             </div>
@@ -60,7 +60,7 @@
                                             <div class="popular-dish-info">
                                                 <h4 itemprop="headline"><a href="food-detail.html" title="" itemprop="url">Chocobar</a></h4>
                                                 
-                                                <span class="price">Rp15.000,00</span>
+                                                <span class="price">Rp10.000,00</span>
                                                 <a class="brd-rd4" href="food-detail.html" title="Order Now" itemprop="url">Pesan</a>
                                                 
                                             </div>
@@ -75,7 +75,7 @@
                                             <div class="popular-dish-info">
                                                 <h4 itemprop="headline"><a href="food-detail.html" title="" itemprop="url">Strawbronies</a></h4>
                                                 
-                                                <span class="price">Rp.15.000,00</span>
+                                                <span class="price">Rp.10.000,00</span>
                                                 <a class="brd-rd4" href="food-detail.html" title="Order Now" itemprop="url">Pesan</a>
                                                 
                                             </div>
@@ -85,7 +85,9 @@
                                         <h4>Pilih Opsi</h4>
                                         <button type="button" class="btn btn-secondary" onclick="location.href='{{ url('menu')}}'">Makanan</button>
                                         <br><br>
-                                        <button type="button" class="btn btn-secondary" onclick="location.href='{{ url('#')}}'">Minuman</button>
+                                        <button type="button" class="btn btn-secondary" onclick="location.href='{{ url('#')}}'">Minuman</button><br><br>
+                                         <button type="button" class="btn btn-secondary" onclick="location.href='{{ url('#')}}'">Checkout</button>
+                                        
                                         
                             </div>
                         </div>
@@ -93,6 +95,7 @@
                 </div>
             </div>
         </section>
+        @include('layouts.footer')
 
         
     </main><!-- Main Wrapper -->

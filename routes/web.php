@@ -19,6 +19,10 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+Route::get('/keranjang', function () {
+    return view('keranjang');
+});
+
 Route::get('/loginadmin', function () {
     return view('loginadmin');
 });
@@ -30,3 +34,18 @@ Route::get('/minuman', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+Auth::routes();
+
+Route::get('/home', function(){
+    $data = DB::table('transaksi')->get();
+
+    return view('home', ['petani' => $data]);
+});
+
+
+Auth::routes();
+
+
+Auth::routes();
+
+
